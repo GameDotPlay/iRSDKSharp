@@ -6,8 +6,6 @@
 
 	class Program
 	{
-		
-
 		static void Main(string[] args)
 		{
 			string csvOutputPath = Path.GetFullPath(@"Test csv Output");
