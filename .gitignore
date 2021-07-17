@@ -9,6 +9,10 @@
 *.user
 *.userosscache
 *.sln.docstates
+"Test ibt/"
+"Test csv Output/"
+*.ibt
+*.csv
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
