@@ -339,6 +339,11 @@
 			}
 		}
 
+		public List<byte[]> VarLines
+		{
+			get => this.varLines;
+		}
+
 		public string FullPath
 		{
 			get => Path.GetFullPath(this.fullPath);

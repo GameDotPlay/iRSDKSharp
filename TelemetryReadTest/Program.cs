@@ -16,12 +16,12 @@
 
 			try
 			{
-				foreach(string filePath in Directory.GetFiles(ibtInputPath, "*.ibt", SearchOption.TopDirectoryOnly))
-				{
-					telemetrySession = new TelemetrySession(filePath);
+				//foreach(string filePath in Directory.GetFiles(ibtInputPath, "*.ibt", SearchOption.TopDirectoryOnly))
+				//{
+					telemetrySession = new TelemetrySession(ibtInputPath);
 
-					telemetrySession.WriteToBinaryFile(ibtOutputPath);
-				}
+					telemetrySession.WriteToCsv();
+				//}
 			}
 			catch (Exception exception)
 			{
